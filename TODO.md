@@ -36,7 +36,7 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Core Interfaces
 
-- [ ] Define IWmeGame interface
+- [✅] Define IWmeGame interface
 - [ ] Define IWmeRenderer interface
 - [ ] Define IWmeSoundManager interface
 - [ ] Define IWmeScriptEngine interface
