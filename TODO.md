@@ -20,19 +20,19 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Project Structure
 
-- [ ] Create solution structure (WintermuteEngine.sln)
-- [ ] Create WME.Core project
-- [ ] Create WME.Graphics project
-- [ ] Create WME.Graphics.OpenGL project
-- [ ] Create WME.Audio project
-- [ ] Create WME.Audio.OpenAL project
-- [ ] Create WME.Adventure project
-- [ ] Create WME.Scripting project
-- [ ] Create WME.Formats project
-- [ ] Create WME.Plugins project
-- [ ] Create WME.Runtime project
-- [ ] Configure .NET 10 target framework for all projects
-- [ ] Add NuGet package references (Microsoft.Extensions.DependencyInjection, etc.)
+- [✅] Create solution structure (WintermuteEngine.sln)
+- [✅] Create WME.Core project
+- [✅] Create WME.Graphics project
+- [✅] Create WME.Graphics.OpenGL project
+- [✅] Create WME.Audio project
+- [✅] Create WME.Audio.OpenAL project
+- [✅] Create WME.Adventure project
+- [✅] Create WME.Scripting project
+- [✅] Create WME.Formats project
+- [✅] Create WME.Plugins project
+- [✅] Create WME.Runtime project
+- [✅] Configure .NET 10 target framework for all projects
+- [✅] Add NuGet package references (Microsoft.Extensions.DependencyInjection, etc.)
 
 ### Core Interfaces
 
