@@ -47,12 +47,12 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Base Classes
 
-- [ ] Implement WmeBase class
-- [ ] Implement WmeScriptable class
-- [ ] Implement WmeObject class
-- [ ] Implement WmeObjectCollection<T> class
-- [ ] Implement WmeValue class (for scripting)
-- [ ] Implement WmeScriptStack class
+- [✅] Implement WmeBase class
+- [✅] Implement WmeScriptable class
+- [✅] Implement WmeObject class
+- [✅] Implement WmeObjectCollection<T> class
+- [✅] Implement WmeValue class (for scripting)
+- [✅] Implement WmeScriptStack class
 
 ### File Management
 
