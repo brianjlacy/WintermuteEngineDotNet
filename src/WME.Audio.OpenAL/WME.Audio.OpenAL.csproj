@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>WME.Audio.OpenAL</RootNamespace>
+    <AssemblyName>WME.Audio.OpenAL</AssemblyName>
+    <Version>1.10.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WME.Core\WME.Core.csproj" />
+    <ProjectReference Include="..\WME.Audio\WME.Audio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.OpenAL" Version="2.22.0" />
+    <PackageReference Include="NVorbis" Version="0.10.5" />
+  </ItemGroup>
+
+</Project>

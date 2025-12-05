@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>WME.Graphics.OpenGL</RootNamespace>
+    <AssemblyName>WME.Graphics.OpenGL</AssemblyName>
+    <Version>1.10.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WME.Core\WME.Core.csproj" />
+    <ProjectReference Include="..\WME.Graphics\WME.Graphics.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.22.0" />
+    <PackageReference Include="Silk.NET.Windowing" Version="2.22.0" />
+    <PackageReference Include="Silk.NET.Input" Version="2.22.0" />
+    <PackageReference Include="SkiaSharp" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>

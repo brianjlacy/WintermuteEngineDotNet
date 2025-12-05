@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>WME.Adventure</RootNamespace>
+    <AssemblyName>WME.Adventure</AssemblyName>
+    <Version>1.10.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WME.Core\WME.Core.csproj" />
+    <ProjectReference Include="..\WME.Graphics\WME.Graphics.csproj" />
+    <ProjectReference Include="..\WME.Scripting\WME.Scripting.csproj" />
+  </ItemGroup>
+
+</Project>

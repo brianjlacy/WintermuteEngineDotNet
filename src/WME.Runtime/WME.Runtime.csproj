@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>WME.Runtime</RootNamespace>
+    <AssemblyName>WME.Runtime</AssemblyName>
+    <Version>1.10.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WME.Core\WME.Core.csproj" />
+    <ProjectReference Include="..\WME.Graphics\WME.Graphics.csproj" />
+    <ProjectReference Include="..\WME.Graphics.OpenGL\WME.Graphics.OpenGL.csproj" />
+    <ProjectReference Include="..\WME.Audio\WME.Audio.csproj" />
+    <ProjectReference Include="..\WME.Audio.OpenAL\WME.Audio.OpenAL.csproj" />
+    <ProjectReference Include="..\WME.Adventure\WME.Adventure.csproj" />
+    <ProjectReference Include="..\WME.Scripting\WME.Scripting.csproj" />
+    <ProjectReference Include="..\WME.Formats\WME.Formats.csproj" />
+    <ProjectReference Include="..\WME.Plugins\WME.Plugins.csproj" />
+  </ItemGroup>
+
+</Project>
