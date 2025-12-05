@@ -37,7 +37,7 @@ CRITICAL OPERATING INSTRUCTIONS:
       -- IF Any Errors or Warnings occur, IMMEDIATELY FIX ALL Errors AND Warnings, THEN RETURN to #3(d).
       -- IF you're unable to fix the Lint issue for ANY REASON, STOP IMMEDIATELY and REPORT the issue to me. DO NOT CONTINUE.
       -- OTHERWISE:
-   g. BUILD THE PROJECT.
+   g. IF the Build Environment has been configured for building .NET projects then BUILD THE PROJECT. OTHERWISE Report the issue, then skip to step i.
       -- NEVER IGNORE a single Build Error OR Warning, EVEN if it seems unrelated.
       -- IF ANY Errors OR Warnings occur, IMMEDIATELY FIX ALL Errors and Warnings, THEN RETURN to #3(d).
       -- If you're unable to fix the Build issue for ANY REASON, STOP IMMEDIATELY and REPORT the issue to me. DO NOT CONTINUE.
