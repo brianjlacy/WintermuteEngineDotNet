@@ -252,17 +252,17 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 ### Script Compiler
 
 - [ ] Implement IWmeScriptCompiler interface
-- [ ] Create WmeScriptCompiler class
+- [✅] Create WmeScriptCompiler class (WmeScriptEngine)
 - [ ] Implement ANTLR4 visitor for AST traversal
-- [ ] Implement bytecode generation
-- [ ] Create WmeCompiledScript class
-- [ ] Define WmeInstruction struct
-- [ ] Implement OpCode enum
+- [✅] Implement bytecode generation (infrastructure)
+- [✅] Create WmeCompiledScript class (WmeScript)
+- [✅] Define WmeInstruction struct
+- [✅] Implement OpCode enum
 
 ### Bytecode Format
 
 - [ ] Define bytecode header format
-- [ ] Implement function table
+- [✅] Implement function table
 - [ ] Implement symbol table
 - [ ] Implement event table
 - [ ] Implement externals table
@@ -271,40 +271,40 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Virtual Machine
 
-- [ ] Implement WmeScriptVM class
-- [ ] Implement instruction execution loop
-- [ ] Implement stack operations (PUSH/POP)
-- [ ] Implement arithmetic operations (ADD, SUB, MUL, DIV, MOD)
-- [ ] Implement comparison operations (EQUAL, LESS, GREATER, etc.)
-- [ ] Implement logical operations (AND, OR, NOT)
-- [ ] Implement control flow (JUMP, JUMP_IF_FALSE, JUMP_IF_TRUE)
-- [ ] Implement function calls (CALL, RETURN)
-- [ ] Implement method calls (CALL_METHOD)
-- [ ] Implement property access (GET_PROPERTY, SET_PROPERTY)
+- [✅] Implement WmeScriptVM class
+- [✅] Implement instruction execution loop
+- [✅] Implement stack operations (PUSH/POP)
+- [✅] Implement arithmetic operations (ADD, SUB, MUL, DIV, MOD)
+- [✅] Implement comparison operations (EQUAL, LESS, GREATER, etc.)
+- [✅] Implement logical operations (AND, OR, NOT)
+- [✅] Implement control flow (JUMP, JUMP_IF_FALSE, JUMP_IF_TRUE)
+- [✅] Implement function calls (CALL, RETURN)
+- [✅] Implement method calls (CALL_METHOD)
+- [✅] Implement property access (GET_PROPERTY, SET_PROPERTY)
 
 ### Script Engine
 
-- [ ] Implement IWmeScriptEngine interface
-- [ ] Create WmeScriptEngine class
-- [ ] Implement script loading (LoadScriptAsync)
-- [ ] Implement script compilation (CompileScript)
-- [ ] Implement script execution management
-- [ ] Add global function registration
-- [ ] Add global variable management
-- [ ] Implement Update method for script processing
+- [✅] Implement IWmeScriptEngine interface
+- [✅] Create WmeScriptEngine class
+- [✅] Implement script loading (LoadScriptAsync)
+- [✅] Implement script compilation (CompileScript)
+- [✅] Implement script execution management
+- [✅] Add global function registration
+- [✅] Add global variable management
+- [✅] Implement Update method for script processing
 
 ### Script Types
 
-- [ ] Implement WmeScript class
+- [✅] Implement WmeScript class
 - [ ] Implement WmeScriptFunction class
-- [ ] Implement ScriptState enum
+- [✅] Implement ScriptState enum
 - [ ] Add script reference counting
 
 ### External Functions
 
-- [ ] Create external function registration system
-- [ ] Implement built-in functions (Game.*, Debug.*, etc.)
-- [ ] Add external function calling from scripts
+- [✅] Create external function registration system
+- [✅] Implement built-in functions (Game.*, Debug.*, etc.)
+- [✅] Add external function calling from scripts
 
 ### Debugger Support
 
