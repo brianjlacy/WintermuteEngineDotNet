@@ -144,14 +144,14 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Sprite System
 
-- [ ] Implement WmeSprite class
-- [ ] Implement WmeFrame class
-- [ ] Implement WmeSubFrame class
+- [✅] Implement WmeSprite class
+- [✅] Implement WmeFrame class
+- [✅] Implement WmeSubFrame class
 - [ ] Create sprite definition parser (WmeSpriteParser)
-- [ ] Implement frame animation system
-- [ ] Add hotspot support
-- [ ] Add keyframe support
-- [ ] Implement sprite looping
+- [✅] Implement frame animation system
+- [✅] Add hotspot support
+- [✅] Add keyframe support
+- [✅] Implement sprite looping
 
 ### 3D Rendering (Basic)
 
