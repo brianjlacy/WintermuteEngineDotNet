@@ -78,13 +78,14 @@ This document tracks all phases and tasks required to convert Wintermute Engine 
 
 ### Unit Tests
 
-- [ ] Create WME.Core.Tests project
-- [ ] Set up xUnit framework
-- [ ] Add tests for WmeBase class
-- [ ] Add tests for WmeScriptable class
-- [ ] Add tests for WmeObject class
-- [ ] Add tests for DcpPackageReader
-- [ ] Add tests for WmeFileManager
+- [✅] Create WME.Core.Tests project
+- [✅] Set up xUnit framework
+- [✅] Add tests for WmeBase class
+- [✅] Add tests for WmeScriptable class
+- [✅] Add tests for WmeObject class
+- [✅] Add tests for DcpPackageReader
+- [✅] Add tests for WmeFileManager
+- [✅] Add tests for WmeSettings
 - [ ] Verify 80%+ test coverage for Phase 1
 
 ---
